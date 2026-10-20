@@ -1,5 +1,6 @@
 # AgentBench Studio
-
+![Task page](docs/task-page.png)
+![Benchmarks](docs/benchmarks.png)
 Author, run, verify and compare AI agent tasks.
 
 - **Author**: a task is a prompt plus weighted checks (`contains`, `not_contains`, `regex`, `json_valid`, `json_schema`, `max_words`, `llm_judge`).
@@ -10,7 +11,7 @@ Author, run, verify and compare AI agent tasks.
 ## Run
 
 ```bash
-cp .env.example .env        # add ANTHROPIC_API_KEY / OPENAI_API_KEY for real models
+cp .env.example .env        # add ANTHROPIC_API_KEY 
 docker compose up --build
 ```
 
